@@ -22,6 +22,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install .
+      - name: run python files
+        run: |
+          python src/calculator/logic.py
+          python src/calculator/makedir.py
       - name: Test with pytest
         run: |
           pytest
