@@ -2,7 +2,7 @@ name: calculator package
 
 on:
   push:
-    branches: ["first"]
+    branches: ["first","second"]
   pull_request:
     branches: ["master"]
 
