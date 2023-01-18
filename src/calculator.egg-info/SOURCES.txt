@@ -1,5 +1,7 @@
 setup.py
 src/calculator/__init__.py
+src/calculator/file1.py
+src/calculator/logger.py
 src/calculator/logic.py
 src/calculator.egg-info/PKG-INFO
 src/calculator.egg-info/SOURCES.txt

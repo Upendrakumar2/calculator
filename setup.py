@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
    name='calculator',
-   version='0.1.0',
+   version='0.1.1',
    author='upendra',
    author_email='upsingh@gmail.com',
    package_dir={"": "src"},
