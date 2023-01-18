@@ -5,7 +5,7 @@ import calculator.logger
 
 num1=5
 num2=6
-data_path="datasets"
+data_path="mlruns"
 
 with mlflow.start_run(run_name="calculator",) as run:
     ans=calculator.logic.add(num1,num2)
